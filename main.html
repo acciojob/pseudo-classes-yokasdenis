@@ -4,12 +4,59 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+    <style>
+        :root{
+            background-color: rgb(135, 206, 235);
+        }
+        article :first-child{
+            color: white;
+            background-color: black;
+        }
+        article :nth-child(2){
+            color:black;
+        }
+        article :last-child{
+            color: red;
+        }
+        li{
+            background-color: gray;
+            width: 50%;
+            padding: 10px;
+        }
+        ul>li:nth-child(odd){
+            background-color: white;
+        }
+        ul>li:first-child{
+            font-size: 22px;
+        }
+        ul>li :last-child{
+            font-size: 22px;
+            background-color: pink;
+        }
+        ul>li:nth-child(3){
+            background-color: pink;
+        }
+    </style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
+
+<article>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, debitis.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, debitis.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, debitis.</p>
+</article>
+<ul>
+    <li>Lorem ipsum dolor sit amet consectetur.</li>
+    <li>Lorem ipsum dolor sit amet consectetur.</li>
+    <li>Lorem ipsum dolor sit amet consectetur.</li>
+    <li>Lorem ipsum dolor sit amet consectetur.</li>
+    <li>Lorem ipsum dolor sit amet consectetur.</li>
+</ul>
+
 
 </body>
 
